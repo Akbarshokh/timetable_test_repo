@@ -122,10 +122,12 @@ CRISPY_TEMPLATE_PACK = 'bootstrap4'
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "static"),
     # "E:/A.S_Files/Semester_4/ALGO/ActivitySelection_Proj/CS311S20PID27/ActivitySelectionTimetable"
-    "C:/Users/huzi6/Desktop/CS311S20PID27/ActivitySelectionTimetable/"
+    "D:\git_folder\TimetableGeneratorApp\ActivitySelectionTimetable"
 ]
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
 STATIC_URL = '/static/'
+
+DEFAULT_AUTO_FIELD = 'django.db.models.AutoField'
